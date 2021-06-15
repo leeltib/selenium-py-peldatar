@@ -1,0 +1,82 @@
+{
+  "uid" : "2c64afc19ebf1243",
+  "name" : "test_add_string__expect_exception",
+  "fullName" : "testproject.test_mymath#test_add_string__expect_exception",
+  "historyId" : "0e93b819cc2e8121f7281dc8e4eaaf78",
+  "time" : {
+    "start" : 1623761367903,
+    "stop" : 1623761367903,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-829"
+  }, {
+    "name" : "thread",
+    "value" : "2790-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5ebad7b4a2fa8852",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/22//#testresult/5ebad7b4a2fa8852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623357081929,
+          "stop" : 1623357081930,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f36924fcf400626a",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/21//#testresult/f36924fcf400626a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623353338586,
+          "stop" : 1623353338586,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2c64afc19ebf1243.json",
+  "parameterValues" : [ ]
+}
