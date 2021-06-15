@@ -1,0 +1,91 @@
+{
+  "uid" : "2d86c99e1cdf819c",
+  "name" : "test_add_positive",
+  "fullName" : "testproject.test_mymath#test_add_positive",
+  "historyId" : "0cc1fa42e1c19a0d3fd610d45c4ba65a",
+  "time" : {
+    "start" : 1623795249220,
+    "stop" : 1623795249220,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-200"
+  }, {
+    "name" : "thread",
+    "value" : "2716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e21a4dbbdfe21dee",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/23//#testresult/e21a4dbbdfe21dee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623761367897,
+          "stop" : 1623761367898,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bdea57739b60afa7",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/22//#testresult/bdea57739b60afa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623357081882,
+          "stop" : 1623357081882,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c68c039e3f2dafd6",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/21//#testresult/c68c039e3f2dafd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623353338581,
+          "stop" : 1623353338581,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d86c99e1cdf819c.json",
+  "parameterValues" : [ ]
+}
