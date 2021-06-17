@@ -26,4 +26,4 @@ articels = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 row = 0
 for articel in articels:
     row += 1
-    print(f"{row}. aktív bejegyzés: ", articel.text)
+    print(f"{row}.  aktív bejegyzés: ", articel.text)
