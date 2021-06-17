@@ -9,4 +9,3 @@ def tripla(l2):
 
 tripla(bm.valt_n)
 bm.lista('Zoli')
-

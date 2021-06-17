@@ -9,10 +9,3 @@ def lista(l1):
 
 # lista(valt_n)
 # lista(valt_s)
-
-
-
-
-
-
-

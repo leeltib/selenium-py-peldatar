@@ -33,4 +33,3 @@ for elem in elements:
         print(f"Az első button típusú elemünk: {elem.text}.")
         print("Az elemek listája alatti szöveg viszont helytelen.")
         break
-

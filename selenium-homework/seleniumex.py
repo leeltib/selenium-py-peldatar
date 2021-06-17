@@ -34,4 +34,3 @@ driver = webdriver.Chrome()
 driver.get('https://fonts.google.com/')
 
 search2(font)
-
