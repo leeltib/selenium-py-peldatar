@@ -22,7 +22,6 @@ print("*" * 80)
 print("         A LINKEK VIZSGÁLATA")
 print("-" * 80)
 
-new_win_list = []
 row = 0
 for link in links:
     row += 1
@@ -34,9 +33,20 @@ for link in links:
         print(' "CSALTAM"!!!   Itt még VALAMI GOND VAN..., kezelni kell :)')
         print("-" * 80)
         continue
-    elif href_text.startswith("http://localhost:9999") == True or target_text != "_blank":
-#        print(type(link))
-#        print(link)
+    elif target_text == "_blank":
+        link.click()
+        print("         Ez a link új böngészőablakot nyit, abban kell vizsgálni.")
+        brow_text = driver.current_url
+        if href_text == brow_text:
+            print("         A link megfelelően működik.")
+            print("-" * 80)
+        else:
+            print("         A link NEM megfelelően műkodik.")
+            print("-" * 80)
+        time.sleep(1.0)
+        driver = webdriver.Chrome()
+        driver.get('http://localhost:9999/general.html')
+    else:
         link.click()
         brow_text = driver.current_url
         if href_text == brow_text:
@@ -47,15 +57,7 @@ for link in links:
             print("-" * 80)
         time.sleep(0.5)
         driver.back()
-    else:
-        new_win_list.append(link)
-        print("         Ez a link új böngészőablakot nyit, külön kell vizsgálni.")
-        print("-" * 80)
 
-link_num2 = len(new_win_list)
-print("*" * 80)
-print(f"Ezen az oldalon összesen {link_num2} új böngészőablakot nyitó link található.")
-print("-" * 80)
-print(type(new_win_list))
-print(new_win_list)
+driver.close()
+
 
