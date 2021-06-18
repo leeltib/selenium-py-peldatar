@@ -14,3 +14,7 @@ elif column == 4:
 else:
     print("Rossz számot adtál meg!")
 
+
+
+
+
