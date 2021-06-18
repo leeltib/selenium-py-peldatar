@@ -1,0 +1,190 @@
+{
+  "uid" : "5eee123fec271034",
+  "name" : "test_add_zero",
+  "fullName" : "testproject.test_mymath#test_add_zero",
+  "historyId" : "77caee529814bb5616db6b28df37c87c",
+  "time" : {
+    "start" : 1624006243138,
+    "stop" : 1624006243138,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-935"
+  }, {
+    "name" : "thread",
+    "value" : "2773-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "91a73aef0ecd8b70",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/34//#testresult/91a73aef0ecd8b70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623932000586,
+          "stop" : 1623932000586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b151b5a663e91354",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/33//#testresult/b151b5a663e91354",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623921227355,
+          "stop" : 1623921227355,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d6ee3036b32e82f5",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/32//#testresult/d6ee3036b32e82f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623919161117,
+          "stop" : 1623919161117,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "54fb738d9a270be7",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/31//#testresult/54fb738d9a270be7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623919086851,
+          "stop" : 1623919086852,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "fca6665d6ffddd4b",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/30//#testresult/fca6665d6ffddd4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623909611682,
+          "stop" : 1623909611682,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8f16bcbc9dc9d867",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/29//#testresult/8f16bcbc9dc9d867",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623909397652,
+          "stop" : 1623909397652,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dca81e27c34e2a06",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/28//#testresult/dca81e27c34e2a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623909321849,
+          "stop" : 1623909321849,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "55e8eaf7cff174c4",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/27//#testresult/55e8eaf7cff174c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623883094819,
+          "stop" : 1623883094819,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2a2359a92d58c27d",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/26//#testresult/2a2359a92d58c27d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623832997991,
+          "stop" : 1623832997991,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6faf3f0734cf8cd8",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/25//#testresult/6faf3f0734cf8cd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623825726865,
+          "stop" : 1623825726865,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "89b14cf0dbe75b6",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/24//#testresult/89b14cf0dbe75b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623795249222,
+          "stop" : 1623795249223,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "47c230cbae1b8b05",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/23//#testresult/47c230cbae1b8b05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623761367900,
+          "stop" : 1623761367900,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b86b7951b684b699",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/22//#testresult/b86b7951b684b699",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623357081927,
+          "stop" : 1623357081927,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41856dea5dd61a4d",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/21//#testresult/41856dea5dd61a4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623353338584,
+          "stop" : 1623353338584,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5eee123fec271034.json",
+  "parameterValues" : [ ]
+}
