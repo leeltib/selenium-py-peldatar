@@ -18,3 +18,4 @@ print("Szeretnéd tudni, hogy egy bizonyos év szökőév-e?")
 evszam = int(input("Írd ide az évszámot: "))
 
 szokoev(evszam)
+
