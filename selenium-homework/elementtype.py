@@ -2,7 +2,16 @@
 
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager               # webdriver-manager / Chrome
+
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
+#driver = webdriver.Chrome(ChromeDriverManager().install())
+
 driver.get('http://localhost:9999/trickyelements.html')
 
 elements = []
@@ -22,7 +31,7 @@ for elem in elements:
         print("Az elemek listája alatti szöveg helyes.")
         break
     elif result.text == "[Click any button]":
-        print(f"A {sorszam}. elem nem gomb.")
+        print(f"A(z) {sorszam}. elem nem gomb.")
     else:
         print(f"Az első button típusú elemünk: {elem.text}.")
         print("Az elemek listája alatti szöveg viszont helytelen.")

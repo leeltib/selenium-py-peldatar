@@ -2,7 +2,16 @@
 
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager               # webdriver-manager / Chrome
+
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
+#driver = webdriver.Chrome(ChromeDriverManager().install())
+
 driver.get('http://localhost:9999/todo.html')
 
 articels = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
