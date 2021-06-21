@@ -18,9 +18,9 @@ articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
 def test_func_todos():
     row = 0
-    for artic in articels1:
+    for test_artic in articels1:
         row += 1
-        szoveg = artic.text
+        szoveg = test_artic.text
         print(f"{row}. aktív bejegyzés: {szoveg}")
 
 # Ha kikapcsolunk bejegyzéseket:
@@ -33,9 +33,9 @@ articels2 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
 def test_func_todos2():
     row = 0
-    for artic2 in articels2:
+    for test_artic2 in articels2:
         row += 1
-        szoveg2 = artic2.text
+        szoveg2 = test_artic2.text
         print(f"{row}. aktív bejegyzés: {szoveg2}")
 
 test_func_todos()
