@@ -20,7 +20,7 @@ def test_func_todos():
     row = 0
     for articel in articels1:
         row += 1
-        print(f"{row}. aktív bejegyzés: ", articel.text)
+        print(row, ". aktív bejegyzés: ", articel.text)
 
 test_func_todos()
 
@@ -39,7 +39,7 @@ def test_func_todos2():
     row = 0
     for articel in articels2:
         row += 1
-        print(f"{row}. aktív bejegyzés: ", articel.text)
+        print(row, ". aktív bejegyzés: ", articel.text)
 
 test_func_todos2()
 
