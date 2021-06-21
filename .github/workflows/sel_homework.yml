@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  full_test:
+  test-elementtype:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,7 +40,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pytest -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" selenium-tests/test_elementtype.py --alluredir=allure-results
+          pytest -c "browserName=chrome" selenium-tests/test_elementtype.py --alluredir=allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v2

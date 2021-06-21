@@ -21,19 +21,19 @@ for i in range(5):
     test_elements.append(element)
 
 # print(elements)
-sorszam = 0
-for elem in test_elements:
-    sorszam += 1
-    elem.click()
+test_sorszam = 0
+for test_elem in test_elements:
+    test_sorszam += 1
+    test_elem.click()
     test_result = driver.find_element_by_xpath('//label[@id="result"]')
-    if test_result.text == f"{elem.text} was clicked":
-        print(f"Az első button típusú elemünk: {elem.text}.")
+    if test_result.text == f"{test_elem.text} was clicked":
+        print(f"Az első button típusú elemünk: {test_elem.text}.")
         print("Az elemek listája alatti szöveg helyes.")
         break
     elif test_result.text == "[Click any button]":
-        print(f"A(z) {sorszam}. elem nem gomb.")
+        print(f"A(z) {test_sorszam}. elem nem gomb.")
     else:
-        print(f"Az első button típusú elemünk: {elem.text}.")
+        print(f"Az első button típusú elemünk: {test_elem.text}.")
         print("Az elemek listája alatti szöveg viszont helytelen.")
         break
 
