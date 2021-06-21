@@ -15,7 +15,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option
 driver.get('http://localhost:9999/todo.html')
 
 articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
-
+data = []
 def test_func_todos(data):
     row = 0
     for articel in data:
