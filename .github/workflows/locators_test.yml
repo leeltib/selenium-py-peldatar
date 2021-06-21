@@ -1,4 +1,4 @@
-name: todos_test
+name: locators_test
 
 on:
   pull_request:
@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  test-todos:
+  test-locators:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,7 +40,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pytest -c "browserName=chrome" selenium-tests/test_todos.py --alluredir=allure-results
+          pytest -c "browserName=chrome" selenium-tests/test_locators.py --alluredir=allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -65,3 +65,4 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+
