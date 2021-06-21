@@ -9,8 +9,8 @@ options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
-#driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
+#driver = webdriver.Chrome(ChromeDriverManager().install())                              # normál mód
 
 driver.get('http://localhost:9999/todo.html')
 
