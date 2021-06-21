@@ -1,9 +1,34 @@
 # Írj programot, ami kiírja a kisbetűket, és melléjük az ASCII kódjukat!
 # A kiírás több oszlopos legyen, és legfeljebb 10 soros.
 
-abc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x"]
 
 column = int(input("3 vagy 4 oszlopban szeretnéd látni a listát? "))
+
+print("------ Megoldás lista használat nélkül ----------------------")
+
+if column == 3:
+    for i in range(8):
+        szam = i + 97
+        print(chr(szam), ":", szam, "   ", chr(szam + 8), ":", szam + 8, "   ", chr(szam + 16), ":", szam + 16)
+elif column == 4:
+    for i in range(6):
+        szam = i + 97
+        print(chr(szam), ":", szam, "   ", chr(szam + 6), ":", szam + 6, "   ", chr(szam + 12), ":", szam + 12, "   ", chr(szam + 18), ":", szam + 18)
+else:
+    print("Rossz számot adtál meg!")
+
+
+print("------ Megoldás (létrehozott) betűsoros listával --------------------")
+
+szamsor = range(200)
+szakasz = list(szamsor[97:123])
+abc = []
+for i in szakasz:
+    abc.append(chr(i))
+
+print(szakasz)
+print(abc)
+print("-" * 70)
 
 if column == 3:
     for i in range(8):
