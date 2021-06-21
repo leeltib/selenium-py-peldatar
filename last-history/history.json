@@ -593,6 +593,27 @@
       }
     } ]
   },
+  "4609d6f5bbedc7619c36d8d961be6179" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2155ff0b71af3ae0",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/4//#testresult/2155ff0b71af3ae0",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('ar', <FixtureRequest for <Function test_func_todos>>)",
+      "time" : {
+        "start" : 1624305428030,
+        "stop" : 1624305428030,
+        "duration" : 0
+      }
+    } ]
+  },
   "753cdf21aa3257d3e2249d83346a13e6" : {
     "statistic" : {
       "failed" : 0,

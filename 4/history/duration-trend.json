@@ -1,9 +1,16 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 0
+  }
+}, {
   "buildOrder" : 3,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/3/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 1
+    "duration" : 0
   }
 }, {
   "buildOrder" : 16,
@@ -64,40 +71,49 @@
   "buildOrder" : 41,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/41/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 19
+  }
 }, {
   "buildOrder" : 40,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/40/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 27
+  }
 }, {
   "buildOrder" : 39,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/39/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 5
+  }
 }, {
   "buildOrder" : 38,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/38/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 10
+  }
 }, {
   "buildOrder" : 37,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/37/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 11
+  }
 }, {
   "buildOrder" : 36,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/36/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 5
+  }
 }, {
   "buildOrder" : 35,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/35/",
   "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 34,
-  "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/34/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 5
+  }
 } ]

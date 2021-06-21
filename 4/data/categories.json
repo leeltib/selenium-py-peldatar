@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('articels', <FixtureRequest for <Function test_func>>)",
+      "name" : "_pytest.fixtures.FixtureLookupError: ('ar', <FixtureRequest for <Function test_func_todos>>)",
       "children" : [ {
-        "name" : "test_func",
-        "uid" : "5d6ed7d7a7afdc30",
-        "parentUid" : "678e2f8471e74cc8b0a60d7bd3392649",
+        "name" : "test_func_todos",
+        "uid" : "2155ff0b71af3ae0",
+        "parentUid" : "4da8940655f1262d1509319e70c27b5c",
         "status" : "broken",
         "time" : {
-          "start" : 1624304774292,
-          "stop" : 1624304774292,
+          "start" : 1624305428030,
+          "stop" : 1624305428030,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "678e2f8471e74cc8b0a60d7bd3392649"
+      "uid" : "4da8940655f1262d1509319e70c27b5c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
