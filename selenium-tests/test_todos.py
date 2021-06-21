@@ -16,9 +16,9 @@ driver.get('http://localhost:9999/todo.html')
 
 articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
-def test_func_todos(ar):
+def test_func_todos(data):
     row = 0
-    for articel in ar:
+    for articel in data:
         row += 1
         print(f"{row}. aktív bejegyzés: ", articel.text)
 
