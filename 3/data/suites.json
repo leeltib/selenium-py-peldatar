@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "selenium-tests",
+    "children" : [ {
+      "name" : "test_todos",
+      "children" : [ {
+        "name" : "test_func",
+        "uid" : "5d6ed7d7a7afdc30",
+        "parentUid" : "1effcf02dcf1f12ee1ff082a85afbd0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624304774292,
+          "stop" : 1624304774292,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1effcf02dcf1f12ee1ff082a85afbd0f"
+    } ],
+    "uid" : "8ffeb301da09590df3d37fb045c77190"
+  } ],
+  "name" : "suites"
+}
