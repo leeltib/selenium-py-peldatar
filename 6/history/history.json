@@ -193,13 +193,23 @@
   "4609d6f5bbedc7619c36d8d961be6179" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "98d78759bb30121b",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/6//#testresult/98d78759bb30121b",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_func_todos>>)",
+      "time" : {
+        "start" : 1624306470868,
+        "stop" : 1624306470868,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3725f71a0d5a761b",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/5//#testresult/3725f71a0d5a761b",
       "status" : "broken",

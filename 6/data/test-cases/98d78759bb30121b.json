@@ -1,11 +1,11 @@
 {
-  "uid" : "3725f71a0d5a761b",
+  "uid" : "98d78759bb30121b",
   "name" : "test_func_todos",
   "fullName" : "selenium-tests.test_todos#test_func_todos",
   "historyId" : "4609d6f5bbedc7619c36d8d961be6179",
   "time" : {
-    "start" : 1624306289835,
-    "stop" : 1624306289835,
+    "start" : 1624306470868,
+    "stop" : 1624306470868,
     "duration" : 0
   },
   "status" : "broken",
@@ -23,10 +23,10 @@
     "value" : "test_todos"
   }, {
     "name" : "host",
-    "value" : "fv-az42-223"
+    "value" : "fv-az77-145"
   }, {
     "name" : "thread",
-    "value" : "3138-MainThread"
+    "value" : "3082-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -55,13 +55,23 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "3725f71a0d5a761b",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/5//#testresult/3725f71a0d5a761b",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('data', <FixtureRequest for <Function test_func_todos>>)",
+        "time" : {
+          "start" : 1624306289835,
+          "stop" : 1624306289835,
+          "duration" : 0
+        }
+      }, {
         "uid" : "2155ff0b71af3ae0",
         "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/4//#testresult/2155ff0b71af3ae0",
         "status" : "broken",
@@ -75,6 +85,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "3725f71a0d5a761b.json",
+  "source" : "98d78759bb30121b.json",
   "parameterValues" : [ ]
 }
