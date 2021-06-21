@@ -16,13 +16,13 @@ driver.get('http://localhost:9999/todo.html')
 
 articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
-def test_func(articels):
+def test_func_todos(ar):
     row = 0
-    for articel in articels:
+    for articel in ar:
         row += 1
         print(f"{row}. aktív bejegyzés: ", articel.text)
 
-test_func(articels1)
+test_func_todos(articels1)
 
 # Ha kikapcsolunk bejegyzéseket:
 but_off1 = driver.find_element_by_xpath("/html/body/div/div/div/ul/li[2]/input")
@@ -34,7 +34,7 @@ print('*' * 50)
 print("Ha érvénytelenítünk két sort:")
 articels2 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
-test_func(articels2)
+test_func_todos(articels2)
 
 driver.close()
 
