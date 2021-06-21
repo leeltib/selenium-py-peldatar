@@ -9,8 +9,8 @@ options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
-#driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)       # Headless mód
+#driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get('http://localhost:9999/trickyelements.html')
 
@@ -25,12 +25,12 @@ sorszam = 0
 for elem in test_elements:
     sorszam += 1
     elem.click()
-    result = driver.find_element_by_xpath('//label[@id="result"]')
-    if result.text == f"{elem.text} was clicked":
+    test_result = driver.find_element_by_xpath('//label[@id="result"]')
+    if test_result.text == f"{elem.text} was clicked":
         print(f"Az első button típusú elemünk: {elem.text}.")
         print("Az elemek listája alatti szöveg helyes.")
         break
-    elif result.text == "[Click any button]":
+    elif test_result.text == "[Click any button]":
         print(f"A(z) {sorszam}. elem nem gomb.")
     else:
         print(f"Az első button típusú elemünk: {elem.text}.")
