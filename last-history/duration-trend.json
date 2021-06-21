@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/1/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 13,
   "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/13/",
   "reportName" : "Allure Report with history",
@@ -114,12 +119,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 13
-  }
-}, {
-  "buildOrder" : 30,
-  "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/30/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9
   }
 } ]
