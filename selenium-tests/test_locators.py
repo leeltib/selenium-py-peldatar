@@ -20,19 +20,24 @@ test_chbox_exam_bmw = driver.find_element_by_id('bmwcheck')
 test_chbox_exam_benz = driver.find_element_by_id('benzcheck')
 test_chbox_exam_honda = driver.find_element_by_id('hondacheck')
 # ellenőrzés
-test_chbox_exam_bmw.click()
-test_chbox_exam_benz.click()
-test_chbox_exam_honda.click()
+def test_check1():
+    test_chbox_exam_bmw.click()
+    test_chbox_exam_benz.click()
+    test_chbox_exam_honda.click()
+
+test_check1()
 print("Keresés ID alapján. Elvárt eredmény:")
 print("A Checkbox Example oszlopban mindhárom autónév mellett pipa van.")
-
 
 # keresés NAME alapján -------------------------------
 test_search_name = driver.find_elements_by_name('cars')
 
 # ellenőrzés
-for elem in test_search_name[1:3]:
-    elem.click()
+def test_check2():
+    for elem in test_search_name[1:3]:
+        elem.click()
+
+test_check2()
 print('*' * 50)
 print("Keresés NAME alapján. Elvárt eredmény:")
 print("A Radio Button Example oszlopban a Honda autónév mellett pipa van.")
@@ -45,25 +50,32 @@ print("Keresés XPath kifejezéssel-1")
 print(test_back_link.text)
 print('*' * 50)
 # ellenőrzés
-test_back_link.click()
-time.sleep(1.0)
-driver.back()
+def test_check3():
+    test_back_link.click()
+    time.sleep(1.0)
+    driver.back()
 
+test_check3()
 
 test_mouse_hov = driver.find_element_by_xpath('//button[@id="mousehover"]')
 print("Keresés XPath kifejezéssel-2")
 print(test_mouse_hov.text)
 print('*' * 50)
 # ellenőrzés
-test_mouse_hov.click()
+def test_check4():
+    test_mouse_hov.click()
 
+test_check4()
 
 test_action_del = driver.find_element_by_xpath('//table[@id="product"]/tbody/tr[3]/td[4]/button')
 print("Keresés XPath kifejezéssel-3")
 print(test_action_del.text)
 print('*' * 50)
 # ellenőrzés
-test_action_del.click()
+def test_check5():
+    test_action_del.click()
+
+test_check5()
 
 driver.close()
 
