@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Jun 21 22:18:37 GMT 2021","Mon Jun 21 22:18:37 GMT 2021","2","","test_locators","","","","test_check1",""
-"broken","Mon Jun 21 22:18:37 GMT 2021","Mon Jun 21 22:18:37 GMT 2021","1","","test_locators","","","","test_check2",""
-"broken","Mon Jun 21 22:18:37 GMT 2021","Mon Jun 21 22:18:37 GMT 2021","1","","test_locators","","","","test_check4",""
-"broken","Mon Jun 21 22:18:37 GMT 2021","Mon Jun 21 22:18:37 GMT 2021","1","","test_locators","","","","test_check3",""
-"broken","Mon Jun 21 22:18:37 GMT 2021","Mon Jun 21 22:18:37 GMT 2021","1","","test_locators","","","","test_check5",""
