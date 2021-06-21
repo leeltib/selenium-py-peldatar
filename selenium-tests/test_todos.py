@@ -18,12 +18,10 @@ articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
 def test_func_todos():
     row = 0
-    for articel in articels1:
+    for artic in articels1:
         row += 1
-        szoveg = articel.text
+        szoveg = artic.text
         print(f"{row}. aktív bejegyzés: {szoveg}")
-
-test_func_todos()
 
 # Ha kikapcsolunk bejegyzéseket:
 but_off1 = driver.find_element_by_xpath("/html/body/div/div/div/ul/li[2]/input")
@@ -31,18 +29,18 @@ but_off2 = driver.find_element_by_xpath("/html/body/div/div/div/ul/li[4]/input")
 but_off1.click()
 but_off2.click()
 
-print('*' * 50)
-print("Ha érvénytelenítünk két sort:")
-
 articels2 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
 def test_func_todos2():
     row = 0
-    for articel2 in articels2:
+    for artic2 in articels2:
         row += 1
-        szoveg2 = articel2.text
+        szoveg2 = artic2.text
         print(f"{row}. aktív bejegyzés: {szoveg2}")
 
+test_func_todos()
+print('*' * 50)
+print("Ha érvénytelenítünk két sort:")
 test_func_todos2()
 
 driver.close()
