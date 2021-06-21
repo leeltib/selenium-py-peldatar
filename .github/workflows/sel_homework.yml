@@ -32,10 +32,6 @@ jobs:
         run: |
           sudo apt install google-chrome-stable
 
-      - name: Test with pytest - todos
-        run: |
-            pytest selenium-homework/todos.py
-
       - name: Test with pytest - locators
         run: |
               pytest selenium-homework/locators.py

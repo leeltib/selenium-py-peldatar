@@ -4,8 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/testproject/venv" />
       <excludeFolder url="file://$MODULE_DIR$/selenium-tests/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/selenium-homework/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (selenium-py-peldatar) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
