@@ -14,14 +14,15 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option
 
 driver.get('http://localhost:9999/todo.html')
 
-articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
-data = []
+data = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
+
 def test_func_todos(data):
     row = 0
     for articel in data:
         row += 1
         print(f"{row}. aktív bejegyzés: ", articel.text)
 
+articels1 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 test_func_todos(articels1)
 
 # Ha kikapcsolunk bejegyzéseket:
@@ -32,8 +33,8 @@ but_off2.click()
 
 print('*' * 50)
 print("Ha érvénytelenítünk két sort:")
-articels2 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 
+articels2 = driver.find_elements_by_xpath("//ul//span[@class='done-false']")
 test_func_todos(articels2)
 
 driver.close()
