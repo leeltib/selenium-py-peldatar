@@ -34,9 +34,9 @@ jobs:
         run: |
           docker-compose up -d
 
-#     - name: Install Chrome
-#       run: |
-#         sudo apt install google-chrome-stable
+      - name: Install Chrome
+        run: |
+          sudo apt install google-chrome-stable
 
       - name: Test with pytest
         run: |
