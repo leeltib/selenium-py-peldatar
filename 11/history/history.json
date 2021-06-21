@@ -2,13 +2,23 @@
   "877c7d01bf42f349385c4a0f73f8c104" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "fd937d1a507bc43e",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/11//#testresult/fd937d1a507bc43e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "time" : {
+        "start" : 1624310059503,
+        "stop" : 1624310059504,
+        "duration" : 1
+      }
+    }, {
       "uid" : "d0ef3ccad5fb40e6",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/10//#testresult/d0ef3ccad5fb40e6",
       "status" : "broken",
@@ -254,13 +264,23 @@
   "4609d6f5bbedc7619c36d8d961be6179" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "1fc35bd227a4d65b",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/11//#testresult/1fc35bd227a4d65b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "time" : {
+        "start" : 1624310059399,
+        "stop" : 1624310059401,
+        "duration" : 2
+      }
+    }, {
       "uid" : "1905449a939c16c5",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/10//#testresult/1905449a939c16c5",
       "status" : "broken",

@@ -6,25 +6,25 @@
       "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
       "children" : [ {
         "name" : "test_func_todos",
-        "uid" : "1905449a939c16c5",
+        "uid" : "1fc35bd227a4d65b",
         "parentUid" : "04e0e10128006169cbbb0fa535941c37",
         "status" : "broken",
         "time" : {
-          "start" : 1624309580317,
-          "stop" : 1624309580318,
-          "duration" : 1
+          "start" : 1624310059399,
+          "stop" : 1624310059401,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_func_todos2",
-        "uid" : "d0ef3ccad5fb40e6",
+        "uid" : "fd937d1a507bc43e",
         "parentUid" : "04e0e10128006169cbbb0fa535941c37",
         "status" : "broken",
         "time" : {
-          "start" : 1624309580409,
-          "stop" : 1624309580410,
+          "start" : 1624310059503,
+          "stop" : 1624310059504,
           "duration" : 1
         },
         "flaky" : false,
