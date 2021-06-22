@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1e8096efa77bfd11",
+  "name" : "test_func_todos",
+  "time" : {
+    "start" : 1624348274668,
+    "stop" : 1624348274669,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d9727a626d922c",
+  "name" : "test_func_todos2",
+  "time" : {
+    "start" : 1624348274761,
+    "stop" : 1624348274762,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
