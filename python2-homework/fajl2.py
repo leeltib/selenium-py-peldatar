@@ -4,9 +4,9 @@ with open("adat.txt", "r") as f:
     rows = f.readlines()
 #    print(rows)
 
-szoveg = ""
+text1 = ""
 for row in rows:
-    szoveg += row.strip() + " "
+    text1 += row.strip() + " "
 
-print(szoveg)
+print(text1)
 

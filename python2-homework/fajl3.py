@@ -4,13 +4,13 @@ with open("adat.txt", "r") as f:
     rows = f.readlines()
 #    print(rows)
 
-szoveg = ""
+text1 = ""
 for row in rows:
-    szoveg += row.strip() + " "
-print(szoveg)
+    text1 += row.strip() + " "
+print(text1)
 
 with open("adat2.txt", "w") as f2:
-    f2.write(szoveg)
+    f2.write(text1)
 
 # ellenőrzés:
 
