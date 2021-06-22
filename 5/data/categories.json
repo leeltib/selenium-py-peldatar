@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "children" : [ {
+        "name" : "test_check1",
+        "uid" : "6e55b2b5c8ae6186",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624367853002,
+          "stop" : 1624367853003,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check2",
+        "uid" : "6373f8a020ad2783",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624367853091,
+          "stop" : 1624367853092,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check3",
+        "uid" : "2a72539e1c50de4a",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624367853119,
+          "stop" : 1624367853120,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check4",
+        "uid" : "89fd99d84ea6a477",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624367853147,
+          "stop" : 1624367853148,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check5",
+        "uid" : "ce658988abd55027",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624367853175,
+          "stop" : 1624367853176,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04e0e10128006169cbbb0fa535941c37"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
