@@ -1,0 +1,104 @@
+{
+  "uid" : "e90cc9cfb0fd4d0d",
+  "name" : "test_elem2",
+  "fullName" : "test_elementtype#test_elem2",
+  "historyId" : "f408d4610c9408248bc8627881574eb9",
+  "time" : {
+    "start" : 1624381531411,
+    "stop" : 1624381531458,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "820ca010c2d5bf8e",
+      "name" : "stdout",
+      "source" : "820ca010c2d5bf8e.txt",
+      "type" : "text/plain",
+      "size" : 98
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_elementtype"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-684"
+  }, {
+    "name" : "thread",
+    "value" : "3112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_elementtype"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "d495ebfc739b0a95",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/19//#testresult/d495ebfc739b0a95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624367842049,
+          "stop" : 1624367842096,
+          "duration" : 47
+        }
+      }, {
+        "uid" : "df24670aa100c09f",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/df24670aa100c09f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624313994179,
+          "stop" : 1624313994231,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "6301c49f96dc109c",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/6301c49f96dc109c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624308572992,
+          "stop" : 1624308573035,
+          "duration" : 43
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e90cc9cfb0fd4d0d.json",
+  "parameterValues" : [ ]
+}
