@@ -1,12 +1,12 @@
 {
-  "uid" : "5b32391286de2184",
+  "uid" : "c177cde8f4e4a180",
   "name" : "test_elem2",
   "fullName" : "test_elementtype#test_elem2",
   "historyId" : "f408d4610c9408248bc8627881574eb9",
   "time" : {
-    "start" : 1624473371334,
-    "stop" : 1624473371370,
-    "duration" : 36
+    "start" : 1624485420818,
+    "stop" : 1624485420873,
+    "duration" : 55
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,11 +16,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4ebbce110aeed95a",
+      "uid" : "5f7d5f4f5d84c658",
       "name" : "stdout",
-      "source" : "4ebbce110aeed95a.txt",
+      "source" : "5f7d5f4f5d84c658.txt",
       "type" : "text/plain",
-      "size" : 87
+      "size" : 90
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -37,7 +37,7 @@
     "value" : "fv-az42-223"
   }, {
     "name" : "thread",
-    "value" : "3255-MainThread"
+    "value" : "3256-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -64,11 +64,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "5b32391286de2184",
+        "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/23//#testresult/5b32391286de2184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624473371334,
+          "stop" : 1624473371370,
+          "duration" : 36
+        }
+      }, {
         "uid" : "885a125db9374e66",
         "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/22//#testresult/885a125db9374e66",
         "status" : "passed",
@@ -126,6 +135,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "5b32391286de2184.json",
+  "source" : "c177cde8f4e4a180.json",
   "parameterValues" : [ ]
 }
