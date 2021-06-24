@@ -37,18 +37,15 @@ def cars_details(list):
 
 def car_details_by_id(car_index):
     num = 0
+    num2 = 0
     for car in cars:
         num += 1
         if car[0] == car_index:
             print(f"Check-{num}: típus: {car[0]}, kor: {car[1]}")
-            if car != cars[-1]:
-                continue
-            else:
-                break
-        elif car[0] != car_index and car != cars[-1]:
-            continue
         else:
-            print("Nincs készleten ebből a típusból.")
+            num2 += 1
+            if num2 == len(cars):
+                print("Nincs készleten ebből a típusból.")
 
     # ide kodold le annak az egy darab kocsi adatainak kiiratasat ami az adott car_index index alatt van tarolva a
     # valtozo(k)-ban
