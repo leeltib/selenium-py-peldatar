@@ -6,7 +6,7 @@
 # 5, Kilepes az applicaciobol
 
 def print_menu():
-    menuk = ["1. Felvétel", "2. Adatlekérés-összes", "3. Adatlekérés-egyéni", "4. Eladás", "5. Kilépés"]
+    menuk = ["1. Kocsi felvétel (márka és kor megadásával)", "2. Az összes kocsi adatainak lekerdezese", "3. Kocsi adatainak lekerdezese index alapjan (márka).", "4. Eladás (törlés)", "5. Kilépés"]
     for menu in menuk:
         print(menu)
     # itt kódold a menü kiiratást
@@ -36,14 +36,29 @@ def cars_details(list):
     # ide kodold le a memoriaban levo osszes kocsi kinyomtatasat a konzolra
 
 def car_details_by_id(car_index):
-    car_num = car_index - 1
-    print(f"{car_index}. típus: {cars[car_num][0]}, kor: {cars[car_num][1]}")
+    num = 0
+    for car in cars:
+        num += 1
+        if car[0] == car_index:
+            print(f"Check-{num}: típus: {car[0]}, kor: {car[1]}")
+            if car != cars[-1]:
+                continue
+            else:
+                break
+        elif car[0] != car_index and car != cars[-1]:
+            continue
+        else:
+            print("Nincs készleten ebből a típusból.")
+
     # ide kodold le annak az egy darab kocsi adatainak kiiratasat ami az adott car_index index alatt van tarolva a
     # valtozo(k)-ban
 
 def car_sell(car_index):
-    car_num = car_index - 1
-    cars.remove(cars[car_num])
+    if car_index <= len(cars):
+        car_num = car_index - 1
+        cars.remove(cars[car_num])
+    else:
+        print("Nincs a listán ilyen autó.")
     # ide kodol le az auto eladasat / torleset a memoriaban levo tarolobol
 
 def start_application():
@@ -62,11 +77,12 @@ def start_application():
         elif user_pick == 3:
             cars_len = len(cars)
             print(f"{cars_len} autó van a listán.")
-            car_index = int(input("Hányadik adatait szeretnéd?: "))
+            car_index = input("Milyen típust szeretnél?: ")
             car_details_by_id(car_index)
         elif user_pick == 4:
             cars_len = len(cars)
             print(f"{cars_len} autó van a listán.")
+            cars_details(cars)
             car_index = int(input("Hányadikat szeretnéd törölni?: "))
             car_sell(car_index)
         elif user_pick == 5:
