@@ -9,11 +9,11 @@ def search(font_type):
         q = driver.find_element_by_id(font_type)
     except:
         print("Nincs az oldalon ilyen elem.")
+    finally:
+        driver.close()
 
 keres = 'nemletezik'
 search(keres)
-
-driver.close()
 
 
 # font keresés hibakezeléssel kiegészítve
@@ -27,6 +27,8 @@ def search2(font_type):
         print("A keresés sikeres, az oldal megnyitva!")
     except:
         print("Nincs az oldalon ilyen elem.")
+    finally:
+        driver.close()
 
 font = input("Milyen nevű fontot keresel? (pl. Asul?) ")
 
