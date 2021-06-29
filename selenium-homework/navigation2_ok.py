@@ -1,4 +1,4 @@
-# 017 Feladat: Navigációs feladatok
+# 017 Feladat: Navigációs feladatok - 2. megoldás
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -26,11 +26,11 @@ row = 0
 for link in links:
     row += 1
     href_text = link.get_attribute('href')
-    print(f"{row}. link:", href_text, ", a link szövege:", link.text)
+    print(f"{row}. link:", href_text, f', a link szövege: "{link.text}"')
 
-print("*" * 80)
-print("         A LINKEK VIZSGÁLATA")
-print("-" * 80)
+print("*" * 85)
+print("    A LINKEK VIZSGÁLATA. A # linkeket nem vizsgáljuk. Marad 20 db vizsgálandó link.")
+print("-" * 85)
 
 # összehasonlító függvény
 def exam(href_text):
@@ -40,19 +40,25 @@ def exam(href_text):
     if href_text[-1] != "/" and brow_text[-1] == "/":
         href_text += "/"
     if href_text[-7:] == brow_text[-7:]:
+        print("    URL:", brow_text)
         print("         A link megfelelően működik.")
         print("-" * 80)
     else:
+        print("    URL:", brow_text)
         print("         A link NEM megfelelően műkodik.")
         print("-" * 80)
     time.sleep(1.0)
 
 row = 0
-for link in links:
+for i in range(len(links)):
+    link = driver.find_elements_by_xpath("//a")[i]
+    if link.text == '#':
+        continue
     row += 1
     href_text = link.get_attribute('href')
     target_text = link.get_attribute('target')
-    print(f"{row}. link:", href_text, ", a link szövege:", link.text)
+    print(f'{row}. link: "{link.text}"')
+    print("   link:", href_text)
     if target_text == "_blank":                                                     # nyitás új ablakban (program szerint)
         main_window = driver.window_handles[0]
         link.click()
@@ -63,21 +69,9 @@ for link in links:
         exam(href_text)
         driver.close()
         driver.switch_to.window(main_window)
-    elif href_text[:29] == "http://localhost:9999/general":                                      # saját oldalon belüli navigáció
+    else:                                                                          # saját oldalon belüli navigáció vagy az alap oldal helyére nyíló linkek
         link.click()
         exam(href_text)
         driver.back()
-    else:                                                                           # nyitás új ablakban (JS kóddal általunk irányítva)
-        main_window = driver.window_handles[0]
-        js = f'var myWin = window.open("{href_text}", "myWin");'
-        driver.execute_script(js)
-        other_window = driver.switch_to.window("myWin")
-        time.sleep(1)
-        print("         JS kóddal új fülre irányítjuk a megnyitást.")
-        exam(href_text)
-        driver.close()
-        driver.switch_to.window(main_window)
-        time.sleep(1)
 
 driver.close()
-
