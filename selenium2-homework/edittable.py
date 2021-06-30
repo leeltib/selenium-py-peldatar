@@ -3,6 +3,7 @@
 
 
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 import pprint
 import time
 
@@ -162,5 +163,10 @@ try:
 except:
     print("A kereső funkció hibásan működik!")
 
-time.sleep(4)
+time.sleep(3)
+ret = driver.find_element_by_xpath('//*[@id="container"]/div/div[1]/input')
+ret.send_keys(Keys.BACKSPACE * 8)
+
+time.sleep(3)
+
 driver.close()
