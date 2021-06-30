@@ -63,7 +63,7 @@ for link in links:
         exam(href_text)
         driver.close()
         driver.switch_to.window(main_window)
-    elif href_text[:29] == "http://localhost:9999/general":                                      # saját oldalon belüli navigáció
+    elif href_text[:29] == "http://localhost:9999/general":                         # saját oldalon belüli navigáció
         link.click()
         exam(href_text)
         driver.back()
