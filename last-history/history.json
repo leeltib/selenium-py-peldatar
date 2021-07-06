@@ -256,11 +256,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "4eaad9e7fe6fceed",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/37//#testresult/4eaad9e7fe6fceed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625572865632,
+        "stop" : 1625572865680,
+        "duration" : 48
+      }
+    }, {
       "uid" : "c96e837513c163b8",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/36//#testresult/c96e837513c163b8",
       "status" : "passed",
@@ -430,15 +439,6 @@
         "start" : 1624313994179,
         "stop" : 1624313994231,
         "duration" : 52
-      }
-    }, {
-      "uid" : "6301c49f96dc109c",
-      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/6301c49f96dc109c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624308572992,
-        "stop" : 1624308573035,
-        "duration" : 43
       }
     } ]
   },
@@ -1499,11 +1499,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "74a6ea7805b83f51",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/37//#testresult/74a6ea7805b83f51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625572865600,
+        "stop" : 1625572865630,
+        "duration" : 30
+      }
+    }, {
       "uid" : "4594abd170dc4a63",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/36//#testresult/4594abd170dc4a63",
       "status" : "passed",
@@ -1672,15 +1681,6 @@
       "time" : {
         "start" : 1624313994147,
         "stop" : 1624313994176,
-        "duration" : 29
-      }
-    }, {
-      "uid" : "5d3bfd7cdc3231ee",
-      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/5d3bfd7cdc3231ee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624308572954,
-        "stop" : 1624308572983,
         "duration" : 29
       }
     } ]
