@@ -3,7 +3,6 @@
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains          # a dupla click-hez kell...
-from selenium.webdriver.common.keys import Keys      # a dupla click-hez kell...
 import time
 
 from selenium.webdriver.chrome.options import Options
