@@ -256,11 +256,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "fdac6b48d4dd419b",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/38//#testresult/fdac6b48d4dd419b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625572959746,
+        "stop" : 1625572960245,
+        "duration" : 499
+      }
+    }, {
       "uid" : "4eaad9e7fe6fceed",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/37//#testresult/4eaad9e7fe6fceed",
       "status" : "passed",
@@ -430,15 +439,6 @@
         "start" : 1624367842049,
         "stop" : 1624367842096,
         "duration" : 47
-      }
-    }, {
-      "uid" : "df24670aa100c09f",
-      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/df24670aa100c09f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624313994179,
-        "stop" : 1624313994231,
-        "duration" : 52
       }
     } ]
   },
@@ -1499,11 +1499,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "c003642646044492",
+      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/38//#testresult/c003642646044492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625572959706,
+        "stop" : 1625572959743,
+        "duration" : 37
+      }
+    }, {
       "uid" : "74a6ea7805b83f51",
       "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/37//#testresult/74a6ea7805b83f51",
       "status" : "passed",
@@ -1673,15 +1682,6 @@
         "start" : 1624367842019,
         "stop" : 1624367842046,
         "duration" : 27
-      }
-    }, {
-      "uid" : "63df119d4311acaf",
-      "reportUrl" : "https://leeltib.github.io/selenium-py-peldatar/17//#testresult/63df119d4311acaf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624313994147,
-        "stop" : 1624313994176,
-        "duration" : 29
       }
     } ]
   }
