@@ -1,0 +1,35 @@
+mail,passw,passw_conf,cust_num,dea_num,ran_f,date,url,text,card_num,card_cvv
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 1 ** TC-001,
+ ,,,,,a,,a,,,
+** 2 ** TC-002,
+yardy.yarr.com,123ab,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 3 ** TC-003,
+yardy@yarr-com,123abcDEF456123abcDEF,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 4 ** TC-004,
+leeltib@gmail.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 5 **
+yardy@yarr.com, ,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 6 **
+yardy@yarr.com,123ab,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 7 **
+yardy@yarr.com,123abcDEF456123abcDEF,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 8 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 9 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 10 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 11 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 12 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 13 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 14 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 15 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+** 16 **
+yardy@yarr.com,123abcDEF456,123abcDEF456,24681357,4554,twelve,2021-07-06,https://login.training360.com,semmimondandomnincs,4111111111111111,119
+
