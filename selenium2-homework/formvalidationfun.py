@@ -26,7 +26,7 @@ def find_el():
     inp_list.append(inp_1)
     inp_2 = driver.find_element_by_id("test-password")                  # jelszó
     inp_list.append(inp_2)
-    inp_3: WebElement = driver.find_element_by_id("test-confirm-password")          # jelszó újra
+    inp_3 = driver.find_element_by_id("test-confirm-password")          # jelszó újra
     inp_list.append(inp_3)
     inp_4 = driver.find_element_by_id("test-customer-number")           # ügyfélszám
     inp_list.append(inp_4)
